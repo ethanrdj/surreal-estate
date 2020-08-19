@@ -1,11 +1,12 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 import "../styles/App.css";
 
 function App() {
   return (
-    <div>
-      <h2>Surreal Estate</h2>
+    <div className="App">
+      <NavBar />
     </div>
   );
 }
