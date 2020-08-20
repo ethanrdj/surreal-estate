@@ -18,4 +18,15 @@ img {
   margin: 0;
   padding: 22px;
   display: inline-block;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
