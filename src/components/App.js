@@ -4,7 +4,7 @@ import Properties from "./Properties";
 import AddProperties from "./AddProperty";
 
 import "../styles/App.css";
-import { Switch, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (

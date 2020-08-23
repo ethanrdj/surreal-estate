@@ -1,0 +1,113 @@
+.AddProperty {
+  padding: 60px;
+  padding-top: 20px;
+}
+h1 {
+  color: #2e0854;
+  font-weight: bold;
+  margin-left: 110px;
+}
+
+.full-form {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  width: 33%;
+  margin-left: 7%;
+  color: #2e0854;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 20vw;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+
+select {
+  width: 20vw;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+
+#title {
+  display: flex;
+}
+
+#type {
+  display: flex;
+  margin-right: 14px;
+}
+
+#bedrooms {
+  display: flex;
+}
+
+#bathrooms {
+  display: flex;
+}
+
+#bathrooms {
+  display: flex;
+}
+
+#price {
+  display: flex;
+}
+
+#city {
+  display: flex;
+  margin-right: 14px;
+}
+
+#email {
+  display: flex;
+}
+
+.addProperty-Button {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.addProperty-Button:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.addProperty-Button:active {
+  position: relative;
+  top: 1px;
+}
+
+.houses {
+  width: 380px;
+  margin-left: 700px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}

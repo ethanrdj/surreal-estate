@@ -1,0 +1,65 @@
+.PropertyCard {
+  padding: 10px 80px 20px 10px;
+  background-color: white;
+  width: 20vw;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flat-img {
+  width: 25vw;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.property-info {
+  height: 20vh;
+  width: 18.6vw;
+  background-color: whitesmoke;
+  padding: 5px 80px 95px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.indi-item {
+  margin-top: 1px;
+  margin-bottom: -20px;
+  padding: 0%;
+  margin-left: 1vw;
+  font-weight: bold;
+  color: #2e0854;
+}
+.email-button {
+  width: 10vw;
+  margin-bottom: 5px;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #2e0854;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 14px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.email-button:hover {
+  background: linear-gradient(to 2e854, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.email-button:active {
+  position: relative;
+  top: 1px;
+}

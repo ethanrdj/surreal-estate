@@ -1,0 +1,21 @@
+.alert-error {
+  color: red;
+  background: #ffe5e5;
+  padding: 8px 20px 8px 20px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 5px;
+  border-width: 0.2px;
+  margin-bottom: 10px;
+}
+
+.alert-success {
+  color: green;
+  background: #f4fef4;
+  padding: 8px 20px 8px 20px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 5px;
+  border-width: 0.1px;
+  margin-bottom: 10px;
+}
