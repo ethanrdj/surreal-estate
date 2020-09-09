@@ -28,7 +28,7 @@ form {
   align-items: center;
 }
 
-input {
+.AddProperty input {
   width: 20vw;
   border-radius: 5px;
   padding: 5px;
@@ -110,4 +110,143 @@ select {
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+}
+
+/*MEDIA QUERIES */
+
+@media (min-width: 1600px) {
+  .houses {
+    margin-left: 1000px;
+    width: 394px;
+  }
+
+  .full-form {
+    width: 28%;
+    margin-left: 300px;
+  }
+
+  .AddProperty h1 {
+    margin-left: 310px;
+  }
+}
+@media (max-width: 1450px) {
+  .houses {
+    margin-left: 700px;
+    width: 394px;
+  }
+
+  .full-form {
+    width: 38%;
+    margin-left: 100px;
+  }
+
+  .AddProperty h1 {
+    margin-left: 110px;
+  }
+
+  .AddProperty input {
+    width: 75%;
+  }
+
+  .AddProperty select {
+    width: 77%;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .houses {
+    margin-left: 550px;
+  }
+
+  .full-form {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .houses {
+    margin-left: 480px;
+  }
+
+  .full-form {
+    margin-left: 10px;
+  }
+
+  .AddProperty h1 {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .full-form {
+    width: 45%;
+    margin-left: -20px;
+  }
+
+  .houses {
+    width: 50%;
+    margin-left: 380px;
+  }
+  .AddProperty h1 {
+    margin-left: 20px;
+  }
+  .AddProperty input {
+    width: 290px;
+    margin-left: -7px;
+  }
+
+  .AddProperty select {
+    margin-left: 6px;
+    width: 290px;
+  }
+}
+
+@media (max-width: 700px) {
+  .full-form {
+    width: 85%;
+    margin-left: -10px;
+  }
+
+  .houses {
+    display: none;
+  }
+  .AddProperty h1 {
+    margin-left: 20px;
+  }
+  .AddProperty input {
+    width: 84%;
+    margin-left: -7px;
+  }
+
+  .AddProperty select {
+    margin-left: 6px;
+    width: 84%;
+  }
+}
+
+@media (max-width: 380px) {
+  .full-form {
+    width: 90%;
+    margin-left: -43px;
+  }
+
+  .AddProperty input {
+    width: 88%;
+    margin-left: 3px;
+  }
+
+  .AddProperty select {
+    width: 90%;
+    margin-left: 7px;
+    text-align: center;
+  }
+  .AddProperty h1 {
+    font-size: 1.5em;
+    margin-left: -25px;
+  }
+
+  .AddProperty label {
+    margin-right: 20px;
+  }
 }

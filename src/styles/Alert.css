@@ -19,3 +19,9 @@
   border-width: 0.1px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 380px) {
+  .Alert {
+    width: 80%;
+  }
+}

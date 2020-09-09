@@ -1,11 +1,18 @@
 .Properties {
   padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Properties > .item {
   display: inline-block;
-  flex-wrap: wrap;
   width: 33.33%;
   padding: 0.5rem;
   box-sizing: border-box;
+  margin-left: 140px;
+  margin-right: -190px;
+}
+
+.Properties > .sb {
+  position: absolute;
 }

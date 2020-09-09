@@ -1,0 +1,76 @@
+.SideBar {
+  background-color: whitesmoke;
+  width: 160px;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 20%;
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-form {
+  display: inline;
+  margin-left: 3px;
+}
+.type-search {
+  width: 70%;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #7c919a;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SideBar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 10%;
+}
+
+.search-form button {
+  width: 15%;
+  margin-top: -5%;
+  margin-bottom: 5px;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #2e0854;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  text-align: center;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-form button:hover {
+  background: linear-gradient(to 2e854, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.search-form button:active {
+  position: relative;
+  top: 1px;
+}
+.SideBar li {
+  margin-top: 10px;
+  margin-left: -25px;
+  list-style-type: none;
+}
+.SideBar li:hover a {
+  background-color: #2e0854;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,11 +1,12 @@
 .navbar {
   background: white;
+  height: 75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: left;
   display: flex;
 }
 
-img {
+.navbar img {
   width: 15%;
   height: auto;
 }
@@ -13,21 +14,53 @@ img {
 .navbar-links {
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .navbar-links-item {
   margin: 0;
-  padding: 22px;
+  padding: 26px 30px 0px 30px;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 17px;
+
+  width: 130px;
 }
 
+.navbar-links-item:last-child {
+  width: auto;
+}
 a:link {
   text-decoration: none;
-  color: black;
+  color: #292929;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #292929;
+}
+
+.signout {
+  margin-left: 400px;
+  padding: 7px 40px 7px 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bolder;
+  font-size: 1.05em;
+  color: #4267b2;
+}
+
+.facebook {
+  margin-left: 465px;
+  margin-top: 25px;
+  width: 200px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.05em;
+  font-weight: bolder;
+  color: #4267b2;
 }

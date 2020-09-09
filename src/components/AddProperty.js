@@ -59,91 +59,88 @@ const AddProperties = () => {
           <form onSubmit={handleAddProperty}>
             <Alert message={alert.message} success={alert.isSuccess} />
             <label htmlFor="title" className="select-boxes">
-              Property Description
-              <input
-                id="title"
-                name="title"
-                value={fields.title}
-                onChange={handleFieldChange}
-                placeholder="Tell us about your property"
-              />
+              Property Description{" "}
             </label>
+            <input
+              id="title"
+              name="title"
+              value={fields.title}
+              onChange={handleFieldChange}
+              placeholder="Tell us about your property"
+            />
+
             <br></br>
-            <label htmlFor="type">
-              Property Type
-              <select
-                id="type"
-                name="type"
-                value={fields.type}
-                onChange={handleFieldChange}
-              >
-                <option value="Flat">Flat</option>
-                <option value="Detached">Detached</option>
-                <option value="Semi-Detached">Semi-Detached</option>
-                <option value="Terraced">Terraced</option>
-                <option value="End of Terraced">End of Terraced</option>
-                <option value="Cottage">Cottage</option>
-                <option value="Bungalow">Bungalow</option>
-              </select>
-            </label>
+            <label htmlFor="type">Property Type </label>
+            <select
+              id="type"
+              name="type"
+              value={fields.type}
+              onChange={handleFieldChange}
+            >
+              <option value="Flat">Flat</option>
+              <option value="Detached">Detached</option>
+              <option value="Semi-Detached">Semi-Detached</option>
+              <option value="Terraced">Terraced</option>
+              <option value="End of Terraced">End of Terraced</option>
+              <option value="Cottage">Cottage</option>
+              <option value="Bungalow">Bungalow</option>
+            </select>
+
             <br></br>
 
-            <label htmlFor="bedrooms">
-              Number of Bedrooms
-              <input
-                id="bedrooms"
-                name="bedrooms"
-                value={fields.bedrooms}
-                onChange={handleFieldChange}
-              />
-            </label>
+            <label htmlFor="bedrooms">Number of Bedrooms </label>
+            <input
+              id="bedrooms"
+              name="bedrooms"
+              value={fields.bedrooms}
+              onChange={handleFieldChange}
+            />
+
             <br></br>
-            <label htmlFor="bathrooms">
-              Number of bathrooms
-              <input
-                id="bathrooms"
-                name="bathrooms"
-                value={fields.bathrooms}
-                onChange={handleFieldChange}
-              />
-            </label>
+            <label htmlFor="bathrooms">Number of bathrooms </label>
+            <input
+              id="bathrooms"
+              name="bathrooms"
+              value={fields.bathrooms}
+              onChange={handleFieldChange}
+            />
+
             <br></br>
 
-            <label htmlFor="price">
-              Price
-              <input
-                id="price"
-                name="price"
-                value={fields.price}
-                onChange={handleFieldChange}
-              />
-            </label>
+            <label htmlFor="price">Price </label>
+            <input
+              id="price"
+              name="price"
+              value={fields.price}
+              onChange={handleFieldChange}
+            />
+
             <br></br>
             <label htmlFor="city" className="select-boxes">
-              Select city
-              <select
-                id="city"
-                name="city"
-                value={fields.city}
-                onChange={handleFieldChange}
-              >
-                <option value="Manchester">Manchester</option>
-                <option value="Leeds">Leeds</option>
-                <option value="Sheffield"> Sheffield</option>
-                <option value="liverpool">Liverpool</option>
-              </select>
+              Select city{" "}
             </label>
+            <select
+              id="city"
+              name="city"
+              value={fields.city}
+              onChange={handleFieldChange}
+            >
+              <option value="Manchester">Manchester</option>
+              <option value="Leeds">Leeds</option>
+              <option value="Sheffield"> Sheffield</option>
+              <option value="Liverpool">Liverpool</option>
+            </select>
+
             <br></br>
-            <label htmlFor="email">
-              Your email address
-              <input
-                id="email"
-                name="email"
-                value={fields.email}
-                onChange={handleFieldChange}
-                placeholder="e.g. perd@YaHeard.com"
-              />
-            </label>
+            <label htmlFor="email">Your email address </label>
+            <input
+              id="email"
+              name="email"
+              value={fields.email}
+              onChange={handleFieldChange}
+              placeholder="e.g. perd@YaHeard.com"
+            />
+
             <br></br>
             <button className="addProperty-Button" type="submit">
               Add

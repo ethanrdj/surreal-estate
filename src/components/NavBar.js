@@ -1,10 +1,11 @@
 import React from "react";
 //import PropTypes from "prop-types";
+import FaceBookLogin from "react-facebook-login/dist/facebook-login-render-props";
 
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ onLogin, userId, onLogout }) => {
   return (
     <div className="navbar">
       <img
@@ -20,7 +21,29 @@ const NavBar = () => {
         <li className="navbar-links-item">
           <Link to="/add-property">Add a Property</Link>
         </li>
+        <li className="navbar-links-item">
+          {userId && <Link to="saved-properties">Saved Properties</Link>}
+        </li>
       </ul>
+      {userId ? (
+        <button className="signout" onClick={onLogout}>
+          LOG OUT
+        </button>
+      ) : (
+        <div>
+          <FaceBookLogin
+            appId="925122757975357"
+            autoLoad={true}
+            fields="name,email,picture"
+            callback={onLogin}
+            render={(renderProps) => (
+              <button className="facebook" onClick={renderProps.onClick}>
+                LOGIN WITH FACEBOOK
+              </button>
+            )}
+          />
+        </div>
+      )}
     </div>
   );
 };

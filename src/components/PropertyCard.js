@@ -8,10 +8,12 @@ import {
   faBath,
   faPoundSign,
   faEnvelopeOpen,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import "../styles/PropertyCard.css";
 
 const PropertyCard = ({
+  _id,
   title,
   type,
   bathrooms,
@@ -19,6 +21,8 @@ const PropertyCard = ({
   price,
   city,
   email,
+  userId,
+  onSaveProperty,
 }) => {
   return (
     <div className="PropertyCard">
@@ -48,6 +52,15 @@ const PropertyCard = ({
             <FontAwesomeIcon icon={faEnvelopeOpen} /> Email
           </button>
         </a>
+        {userId && (
+          // eslint-disable-next-line
+          <a href="#" className="save">
+            <button type="submit" onClick={() => onSaveProperty(_id)}>
+              <FontAwesomeIcon icon={faStar} />
+              Save
+            </button>
+          </a>
+        )}
       </div>
     </div>
   );
